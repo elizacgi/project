@@ -77,12 +77,33 @@ section h2 {
   letter-spacing: 1px;
 }
 
+#mainNav .container {
+  padding-left: 15px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 #mainNav .navbar-brand {
-  color: white;
+  color: #222222;
   /* font-weight: ; */
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    color: white;
+  }
+}
+
+#mainNav .navbar-brand .logoText {
+  /* color: rgb(1, 23, 64); */
+  /* color: rgba(255, 255, 255, 0.6); */
+  font-weight: 500;
+  line-height: 0px;
+  font-size: 1.2rem;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -133,6 +154,9 @@ section h2 {
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.6);
   }
+  /* #mainNav .logoText:hover {
+    color: rgba(255, 255, 255, 0.4);
+  } */
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
     color: white;
@@ -149,7 +173,8 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #0090EA;
+    /* color: rgba(255, 255, 255, 0.6); */
+    color: #222222;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -417,7 +442,7 @@ section.overview .platformOverview {
 }
 
 section.contact {
-  
+
 }
 
 section.signature {
