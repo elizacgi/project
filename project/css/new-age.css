@@ -47,9 +47,15 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
 }
 
 section {
@@ -254,20 +260,25 @@ section.missionStatement .badges .badge-link img {
 .foundingBanks {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 
 .foundingBank {
-  padding: 12px;
-  border: 1px solid lightgray;
-  border-radius: 3px;
-  background-color: #e9e9eb;
+  /* padding: 12px; */
+  /* border-radius: 3px; */
+  /* background-color: #e9e9eb; */
   display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
+  color: #0090EA;
+}
+
+.divider {
+  padding: 0 5%;
+  border-left: 1px solid gray;
 }
 
 section.hiw {
@@ -403,6 +414,10 @@ section.overview .platformOverview {
   width: 75%;
   align-self: center;
   /* THIS MIGHT NOT ALWAYS WORK? */
+}
+
+section.contact {
+  
 }
 
 section.signature {
