@@ -442,7 +442,26 @@ section.overview .platformOverview {
 }
 
 section.contact {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+}
 
+section.contact .contactInfo {
+  /* background-color: silver; */
+  border-radius: 3px;
+  text-align: left;
+}
+
+section.contact .contactInfo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: silver;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 section.signature {
