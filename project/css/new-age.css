@@ -301,9 +301,11 @@ section.missionStatement .badges .badge-link img {
   color: #0090EA;
 }
 
-.divider {
-  padding: 0 5%;
-  border-left: 1px solid gray;
+@media (min-width: 768px) {
+  .divider {
+    padding: 0 5%;
+    border-left: 1px solid gray;
+  }
 }
 
 section.hiw {
@@ -320,11 +322,50 @@ section.hiw .content {
   flex-direction: row;
 }
 
-section.hiw .stats {
-  width: 40%;
-  height: 50%;
-  /* THIS MIGHT NOT ALWAYS WORK? */
+section.hiw .content div {
+  display: flex;
+  justify-content: center;
 }
+
+section.hiw .stats {
+  /* max-width: 600px;
+  max-height: 500px; */
+  margin: 0;
+  padding: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+/* @media (min-width: 768px) {
+  .img-fluid {
+    max-height: 210px;
+  }
+} */
+
+@media (min-width: 768px) {
+  .img-fluid {
+    max-height: 290px;
+    max-width: 310px;
+  }
+}
+
+section.hiw .stats {
+  /* max-width: 400px;
+  max-height: 500px;
+  margin: 0;
+  padding: 0; */
+  margin-bottom: 10%;
+}
+/*
+@media (min-width: 768px) {
+  section.hiw .stats {
+    margin-bottom: 0px;
+  }
+} */
 
 section.hiw .dashedLine {
   width: 60%;
@@ -335,6 +376,8 @@ section.hiw .dashedLine {
 section.hiw .section-heading {
   /* margin-bottom: 100px; */
   padding-left: 14%;
+  display: flex;
+  flex-direction: column;
 }
 
 section.hiw .section-heading h2 {
@@ -389,7 +432,13 @@ section.benefits {
   */
   padding-top: 65px;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  section.benefits {
+    margin-bottom: 200px;
+  }
 }
 
 section.benefits:after {
@@ -398,13 +447,30 @@ section.benefits:after {
   display: block;
   height: 37%;
   width: 100%;
-  top: 80%;
+  top: 70%;
   left: 0;
   z-index: -1;
   background: #68BDF2;
   -ms-transform: skewY(-8deg);
   -webkit-transform: skewY(-8deg);
   transform: skewY(-8deg);
+}
+
+@media (min-width: 768px) {
+  section.benefits:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 37%;
+    width: 100%;
+    top: 80%;
+    left: 0;
+    z-index: -1;
+    background: #68BDF2;
+    -ms-transform: skewY(-8deg);
+    -webkit-transform: skewY(-8deg);
+    transform: skewY(-8deg);
+  }
 }
 
 section.benefits .platformBenefits {
@@ -419,6 +485,10 @@ section.benefits h5 {
 
 section.benefits .beneficiaries {
   display: flex;
+}
+
+section.benefits .beneficiaries .row {
+  flex: 1;
 }
 
 section.benefits .beneficiaries li {
