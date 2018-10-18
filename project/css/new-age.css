@@ -375,10 +375,19 @@ section.hiw .dashedLine {
 
 section.hiw .section-heading {
   /* margin-bottom: 100px; */
-  padding-left: 14%;
+  /* padding-left: 14%; */
   display: flex;
   flex-direction: column;
 }
+
+/* @media (min-width: 768px) {
+  section.hiw .section-heading {
+    /* margin-bottom: 100px; /
+    padding-left: 14%;
+    /* display: flex;
+    flex-direction: column; /
+  }
+} */
 
 section.hiw .section-heading h2 {
   margin-top: 0;
@@ -389,16 +398,24 @@ section.hiw .section-heading p {
 }
 
 section.standardization {
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  section.standardization {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
 }
 
 /* @media (min-width: 992px) {
-  section.standardization .ui {
+  section.standardization .ui-large {
     width: 60%;
   }
 } */
 
-section.standardization .container {
+/* section.standardization .container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -408,14 +425,62 @@ section.standardization .container {
   margin-right: 0px;
   padding-right: 0px;
   margin-left: auto;
-  /* smaller margin-left looks better but then the screenshot isn't off the edge of the page */
+  /* smaller margin-left looks better but then the screenshot isn't off the edge of the page /
+} */
+
+section.standardization .container {
+  display: flex;
+  flex-direction: column;
 }
 
-section.standardization .section-heading {
-  padding-right: 23%;
+@media (min-width: 992px) {
+  section.standardization .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+    align-self: flex-end;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    /* smaller margin-left looks better but then the screenshot isn't off the edge of the page */
+  }
 }
 
-section.standardization .ui {
+section.standardization .showLarge {
+  display: none;
+}
+
+section.standardization .hideLarge {
+  display: inline;
+  max-width: 200px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  section.standardization .hideLarge {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  section.standardization .showLarge {
+    display: inline;
+  }
+
+  section.standardization .hideLarge {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  section.standardization .section-heading {
+    padding-right: 10%;
+  }
+}
+
+section.standardization .ui-large {
   width: 42%;
   align-self: flex-end;
   /* height: 35%; */
@@ -528,10 +593,24 @@ section.contact .contactInfo ul {
   padding: 0;
 }
 
+/* section.contact .row {
+  margin: 5px 0;
+} */
+
 .card {
   background-color: silver;
   padding: 10px;
   margin: 10px 0;
+}
+
+.doubleMargin {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .doubleMargin {
+    margin-top: 10px;
+  }
 }
 
 section.signature {
