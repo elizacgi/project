@@ -46,6 +46,10 @@ h6 {
   letter-spacing: 1px;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 p {
   font-size: 14px;
   line-height: 1.5;
@@ -577,9 +581,15 @@ section.overview .platformOverview {
 }
 
 section.contact {
-  background-color: gainsboro;
+  /* background-color: gainsboro; */
+  background: -webkit-gradient(linear, right top, left top, from(#0090EA), to(white));
+  background: linear-gradient(to bottom, #0090EA, white);
   display: flex;
   justify-content: space-between;
+}
+
+section.contact h5 {
+  color: white;
 }
 
 section.contact .contactInfo {
@@ -598,9 +608,14 @@ section.contact .contactInfo ul {
 } */
 
 .card {
-  background-color: silver;
+  background-color: aliceblue;
   padding: 10px;
   margin: 10px 0;
+  border: none;
+}
+
+.card li {
+  color: gray;
 }
 
 .doubleMargin {
