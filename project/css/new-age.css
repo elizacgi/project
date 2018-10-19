@@ -279,6 +279,12 @@ header.masthead .header-content h1 {
   }
 }
 
+
+.my-auto {
+  margin-top: 25%\0 !important;
+}
+
+
 section.missionStatement {
   z-index: 3;
   position: relative;
@@ -339,7 +345,6 @@ section.missionStatement .badges .badge-link img {
 
 @media (min-width: 768px) {
   .divider {
-    padding: 0 5%;
     border-left: 1px solid gray;
   }
 }
@@ -364,10 +369,9 @@ section.hiw .content div {
 }
 
 section.hiw .stats {
-  /* max-width: 600px;
-  max-height: 500px; */
-  margin: 0;
-  padding: 0;
+  background: url("../img/stats.png") no-repeat center;
+  background-size: contain;
+  min-height: 290px;
 }
 
 .img-fluid {
@@ -376,26 +380,12 @@ section.hiw .stats {
   max-height: 200px;
 }
 
-/* @media (min-width: 768px) {
-  .img-fluid {
-    max-height: 210px;
-  }
-} */
-
 @media (min-width: 768px) {
   .img-fluid {
-    max-height: 290px;
-    max-width: 310px;
+    max-height: 310px;
   }
 }
 
-section.hiw .stats {
-  /* max-width: 400px;
-  max-height: 500px;
-  margin: 0;
-  padding: 0; */
-  margin-bottom: 10%;
-}
 /*
 @media (min-width: 768px) {
   section.hiw .stats {
@@ -405,6 +395,7 @@ section.hiw .stats {
 
 section.hiw .dashedLine {
   width: 60%;
+  height: 60%;
   align-self: center;
   /* THIS MIGHT NOT ALWAYS WORK? */
 }
@@ -517,7 +508,6 @@ section.standardization .hideLarge {
 }
 
 section.standardization .ui-large {
-  width: 42%;
   align-self: flex-end;
   /* height: 35%; */
   /* THIS MIGHT NOT ALWAYS WORK? */
