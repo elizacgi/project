@@ -48,6 +48,7 @@ h6 {
 
 h5 {
   font-weight: bold;
+  font-size: 1.4rem;
 }
 
 p {
@@ -70,6 +71,10 @@ section h2 {
   font-size: 50px;
 }
 
+.dark-nav {
+  background-color: black !important;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -79,6 +84,22 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+#mainNav .nav-item {
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 768px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 5000px !important;
+  }
 }
 
 #mainNav .container {
@@ -192,6 +213,12 @@ section h2 {
 
 .TIN {
   height: 55px;
+  /* background-image:url("../img/TIN-White.png"); */
+}
+
+.hide{
+  opacity: 0;
+  display: none;
 }
 
 header.masthead {
@@ -303,6 +330,8 @@ section.missionStatement .badges .badge-link img {
   justify-content: center;
   align-items: center;
   color: #0090EA;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -544,8 +573,8 @@ section.benefits:after {
 
 section.benefits .platformBenefits {
   width: 95%;
-  margin-top: 10px;
-  margin-bottom: 37px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 section.benefits h5 {
@@ -570,26 +599,53 @@ section.benefits li .emphasize {
 }
 
 section.overview {
-  padding-top: 35px;
+  padding-top: 70px;
   padding-bottom: 50px;
+}
+section.overview h5 {
+  margin-bottom: 100px;
 }
 
 section.overview .platformOverview {
   width: 75%;
+  max-width: 639px;
   align-self: center;
   /* THIS MIGHT NOT ALWAYS WORK? */
 }
 
+.mobile {
+  display: inline;
+}
+
+.full {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .mobile {
+    display: none;
+  }
+
+  .full {
+    display: inline;
+  }
+}
+
 section.contact {
   /* background-color: gainsboro; */
-  background: -webkit-gradient(linear, right top, left top, from(#0090EA), to(white));
-  background: linear-gradient(to bottom, #0090EA, white);
+  background: -webkit-gradient(linear, right top, left top, from(gray), to(white));
+  background: linear-gradient(to bottom, gray, white);
   display: flex;
   justify-content: space-between;
 }
 
-section.contact h5 {
+section.contact h5, h4 {
   color: white;
+}
+
+section.contact h4 {
+  padding: 10px;
+  margin: 0;
 }
 
 section.contact .contactInfo {
@@ -608,14 +664,55 @@ section.contact .contactInfo ul {
 } */
 
 .card {
-  background-color: aliceblue;
-  padding: 10px;
+  background-color: white;
+  /* padding: 10px; */
   margin: 10px 0;
   border: none;
+  min-height: 151px;
+}
+
+.card .cardTitle {
+  background-color: #0090EA;
+  border-radius: 3px 3px 0 0;
+}
+
+.card .background {
+  padding: 15px 15px 0 15px;
 }
 
 .card li {
   color: gray;
+}
+
+/* @media (min-width: 450px) {
+  .card {
+    align-self: center;
+    max-width: 80%;
+  }
+} */
+
+@media (min-width: 576px) {
+  .resizePadding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .card li {
+    font-size: 0.75rem;
+  }
+  /* .card {
+    align-self: center;
+    max-width: clear;
+  } */
+}
+
+@media (min-width: 780px) {
+  .resizePadding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card li {
+    font-size: 1rem;
+  }
 }
 
 .doubleMargin {
@@ -639,7 +736,7 @@ section.signature {
 }
 
 .signature .CGI {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 
@@ -647,6 +744,12 @@ section.signature {
   align-self: center;
   margin: 0;
   color: #3C3C3C;
+}
+
+.align-center {
+  text-align: center;
+  font-size: 10px!important;
+  margin-right: 5px;
 }
 
 footer {
