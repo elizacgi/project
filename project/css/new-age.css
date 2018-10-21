@@ -447,13 +447,6 @@ section.standardization .container {
   }
 }
 
-/* @media (min-width: 768px)
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    /* max-width: 50%; /
-} */
-
 section.standardization .showLarge {
   display: none;
 }
@@ -636,6 +629,12 @@ section.contact .contactInfo ul {
   margin: 10px 0;
   border: none;
   min-height: 151px;
+}
+
+@media (min-width: 992px) {
+  .card {
+    margin: 20px 0;
+  }
 }
 
 .card .cardTitle {
