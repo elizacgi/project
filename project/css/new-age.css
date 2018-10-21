@@ -74,7 +74,6 @@ section h2 {
 .dark-nav {
   background-color: black !important;
   padding-left: 0px!important;
-  /* margin-top: 100px; */
   padding-top: 13px;
 }
 
@@ -114,7 +113,6 @@ section h2 {
 
 #mainNav .navbar-brand {
   color: #222222;
-  /* font-weight: ; */
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 1px;
   font-size: 1rem;
@@ -127,8 +125,6 @@ section h2 {
 }
 
 #mainNav .navbar-brand .logoText {
-  /* color: rgb(1, 23, 64); */
-  /* color: rgba(255, 255, 255, 0.6); */
   font-weight: 500;
   line-height: 0px;
   font-size: 1.2rem;
@@ -182,9 +178,6 @@ section h2 {
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.6);
   }
-  /* #mainNav .logoText:hover {
-    color: rgba(255, 255, 255, 0.4);
-  } */
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
     color: white;
@@ -201,7 +194,6 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    /* color: rgba(255, 255, 255, 0.6); */
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
@@ -216,7 +208,6 @@ section h2 {
 
 .TIN {
   height: 55px;
-  /* background-image:url("../img/TIN-White.png"); */
 }
 
 .hide{
@@ -331,9 +322,6 @@ section.missionStatement .badges .badge-link img {
 }
 
 .foundingBank {
-  /* padding: 12px; */
-  /* border-radius: 3px; */
-  /* background-color: #e9e9eb; */
   display: flex;
   align-content: center;
   justify-content: center;
@@ -351,6 +339,10 @@ section.missionStatement .badges .badge-link img {
 
 section.hiw {
   padding-bottom: 0px;
+}
+
+section.hiw .section-heading {
+  margin-top: 30px;
 }
 
 section.hiw .container {
@@ -386,35 +378,16 @@ section.hiw .stats {
   }
 }
 
-/*
-@media (min-width: 768px) {
-  section.hiw .stats {
-    margin-bottom: 0px;
-  }
-} */
-
 section.hiw .dashedLine {
   width: 60%;
   height: 60%;
   align-self: center;
-  /* THIS MIGHT NOT ALWAYS WORK? */
 }
 
 section.hiw .section-heading {
-  /* margin-bottom: 100px; */
-  /* padding-left: 14%; */
   display: flex;
   flex-direction: column;
 }
-
-/* @media (min-width: 768px) {
-  section.hiw .section-heading {
-    /* margin-bottom: 100px; /
-    padding-left: 14%;
-    /* display: flex;
-    flex-direction: column; /
-  }
-} */
 
 section.hiw .section-heading h2 {
   margin-top: 0;
@@ -471,9 +444,15 @@ section.standardization .container {
     margin-right: 0px;
     padding-right: 0px;
     margin-left: auto;
-    /* smaller margin-left looks better but then the screenshot isn't off the edge of the page */
   }
 }
+
+/* @media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    /* max-width: 50%; /
+} */
 
 section.standardization .showLarge {
   display: none;
@@ -509,15 +488,12 @@ section.standardization .hideLarge {
 
 section.standardization .ui-large {
   align-self: flex-end;
-  /* height: 35%; */
-  /* THIS MIGHT NOT ALWAYS WORK? */
+  width: 35%;
 }
 
 section.benefits {
   background-image: linear-gradient(#0085D8, #68BDF2);
   /*
-  CAN I AND SHOULD I DO IT LIKE THIS?
-
   background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
   background: linear-gradient(to left, #7b4397, #dc2430);
   */
@@ -565,7 +541,7 @@ section.benefits:after {
 }
 
 section.benefits .platformBenefits {
-  width: 95%;
+  width: 85%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -584,7 +560,6 @@ section.benefits .beneficiaries .row {
 
 section.benefits .beneficiaries li {
   text-align: left;
-  /* font-weight: 200; */
 }
 
 section.benefits li .emphasize {
@@ -595,15 +570,21 @@ section.overview {
   padding-top: 70px;
   padding-bottom: 50px;
 }
+
 section.overview h5 {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  section.overview h5 {
+    margin-bottom: 100px;
+  }
 }
 
 section.overview .platformOverview {
-  width: 75%;
-  max-width: 639px;
+  width: 80%;
+  max-width: 720px;
   align-self: center;
-  /* THIS MIGHT NOT ALWAYS WORK? */
 }
 
 .mobile {
@@ -625,7 +606,6 @@ section.overview .platformOverview {
 }
 
 section.contact {
-  /* background-color: gainsboro; */
   background: -webkit-gradient(linear, right top, left top, from(gray), to(white));
   background: linear-gradient(to bottom, gray, white);
   display: flex;
@@ -642,7 +622,6 @@ section.contact h4 {
 }
 
 section.contact .contactInfo {
-  /* background-color: silver; */
   border-radius: 3px;
   text-align: left;
 }
@@ -652,13 +631,8 @@ section.contact .contactInfo ul {
   padding: 0;
 }
 
-/* section.contact .row {
-  margin: 5px 0;
-} */
-
 .card {
   background-color: white;
-  /* padding: 10px; */
   margin: 10px 0;
   border: none;
   min-height: 151px;
@@ -677,13 +651,6 @@ section.contact .contactInfo ul {
   color: gray;
 }
 
-/* @media (min-width: 450px) {
-  .card {
-    align-self: center;
-    max-width: 80%;
-  }
-} */
-
 @media (min-width: 576px) {
   .resizePadding {
     padding-left: 5px;
@@ -692,10 +659,6 @@ section.contact .contactInfo ul {
   .card li {
     font-size: 0.75rem;
   }
-  /* .card {
-    align-self: center;
-    max-width: clear;
-  } */
 }
 
 @media (min-width: 780px) {
@@ -763,7 +726,7 @@ footer ul {
 
 footer ul li a {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {

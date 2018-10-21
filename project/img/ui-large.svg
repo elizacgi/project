@@ -1,0 +1,467 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1420.5 1092">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1e201d;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-2, .cls-22, .cls-33, .cls-9 {
+        fill: none;
+      }
+
+      .cls-19, .cls-25, .cls-26, .cls-27, .cls-3, .cls-31, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #e8e9e9;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-22, .cls-3, .cls-33, .cls-7, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: rgba(40,45,50,0.36);
+        font-size: 26px;
+      }
+
+      .cls-16, .cls-20, .cls-25, .cls-4, .cls-5, .cls-6, .cls-8 {
+        font-family: Nunito-Regular, Nunito;
+      }
+
+      .cls-5 {
+        fill: #686868;
+      }
+
+      .cls-16, .cls-31, .cls-5, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-10, .cls-6 {
+        fill: #0290ff;
+      }
+
+      .cls-13, .cls-7 {
+        stroke: #0290ff;
+      }
+
+      .cls-8 {
+        fill: #757575;
+      }
+
+      .cls-27, .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-9 {
+        stroke: rgba(209,216,245,0.6);
+      }
+
+      .cls-22, .cls-9 {
+        stroke-linecap: square;
+      }
+
+      .cls-11 {
+        stroke: #adb5d5;
+      }
+
+      .cls-12 {
+        stroke: #979797;
+      }
+
+      .cls-13 {
+        stroke-width: 2px;
+      }
+
+      .cls-14 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-15 {
+        fill: #161718;
+        font-size: 52px;
+        letter-spacing: -0.04em;
+      }
+
+      .cls-15, .cls-17, .cls-18 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-16 {
+        fill: #767676;
+      }
+
+      .cls-17 {
+        fill: #7ed321;
+      }
+
+      .cls-17, .cls-18, .cls-25 {
+        font-size: 12px;
+      }
+
+      .cls-18 {
+        fill: #d0021b;
+      }
+
+      .cls-19 {
+        font-size: 13px;
+        letter-spacing: 0.038em;
+      }
+
+      .cls-19, .cls-31 {
+        font-family: Roboto-Black, Roboto;
+        font-weight: 800;
+      }
+
+      .cls-20, .cls-21 {
+        fill: rgba(43,48,52,0.4);
+      }
+
+      .cls-20 {
+        font-size: 18px;
+      }
+
+      .cls-22 {
+        stroke: #a7aaae;
+      }
+
+      .cls-23 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-24 {
+        fill: #016fc6;
+      }
+
+      .cls-27 {
+        font-family: Nunito-SemiBold, Nunito;
+        font-weight: 600;
+        letter-spacing: 0.267em;
+        opacity: 0.752;
+      }
+
+      .cls-28 {
+        fill: #74c2ff;
+      }
+
+      .cls-29 {
+        fill: #a7d8ff;
+      }
+
+      .cls-30 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-32 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-33 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-34 {
+        stroke: none;
+      }
+
+      .cls-35 {
+        filter: url(#card_copy);
+      }
+
+      .cls-36 {
+        filter: url(#card-3);
+      }
+
+      .cls-37 {
+        filter: url(#card-2);
+      }
+
+      .cls-38 {
+        filter: url(#Rectangle_30);
+      }
+
+      .cls-39 {
+        filter: url(#card);
+      }
+    </style>
+    <filter id="card" x="143.5" y="282.5" width="1277" height="669" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#1e1e1e" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_30" x="167.5" y="493.5" width="1250" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-2"/>
+      <feFlood flood-color="#0290ff" flood-opacity="0.553"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="card-2" x="143.5" y="78.5" width="255" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#1e1e1e" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="card-3" x="365.5" y="78.5" width="255" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#1e1e1e" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="card_copy" x="587.5" y="78.5" width="255" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-color="#1e1e1e" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="arrow" class="cls-1" d="M3.158.1a.343.343,0,1,1,.488.482L1.172,3.052H9.334a.343.343,0,0,1,.347.34.347.347,0,0,1-.347.346H1.172L3.645,6.2a.348.348,0,0,1,0,.487.342.342,0,0,1-.488,0L.1,3.637a.343.343,0,0,1,0-.482Z" transform="translate(0 9.68) rotate(-90)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Clip_2" data-name="Clip 2" class="cls-2" d="M0,0H27V27.982H0Z"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Clip_2-2" data-name="Clip 2" class="cls-2" d="M0,0H22.994V26H0Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(1)">
+    <g class="cls-39" transform="matrix(1, 0, 0, 1, -1, 0)">
+      <rect id="card-4" data-name="card" class="cls-3" width="1216" height="608" transform="translate(184 303)"/>
+    </g>
+    <text id="Purchase_Orders" data-name="Purchase Orders" class="cls-4" transform="translate(183 67)"><tspan x="0" y="0">Purchase Orders</tspan></text>
+    <text id="Amount" class="cls-5" transform="translate(930 328)"><tspan x="27.771" y="14">Amount</tspan></text>
+    <text id="Issuance_Date" data-name="Issuance Date" class="cls-5" transform="translate(1068 328)"><tspan x="0" y="14">Issuance</tspan><tspan x="0" y="32">Date</tspan></text>
+    <text id="Supplier" class="cls-5" transform="translate(522 328)"><tspan x="0" y="14">Supplier </tspan></text>
+    <text id="Status" class="cls-5" transform="translate(388 328)"><tspan x="0" y="14">Status </tspan></text>
+    <text id="Financing_Status" data-name="Financing Status" class="cls-5" transform="translate(724 328)"><tspan x="0" y="14">Financing </tspan><tspan x="0" y="32">Status</tspan></text>
+    <text id="Expected_Shipment_Da" data-name="Expected Shipment Da" class="cls-5" transform="translate(1221 328)"><tspan x="0" y="14">Expected Shipment</tspan><tspan x="0" y="32">Date</tspan></text>
+    <text id="P.O._Number" data-name="P.O. Number" class="cls-6" transform="translate(254 328)"><tspan x="0" y="14">P.O. Number</tspan></text>
+    <g class="cls-38" transform="matrix(1, 0, 0, 1, -1, 0)">
+      <g id="Rectangle_30-2" data-name="Rectangle 30" class="cls-7" transform="translate(196 514)">
+        <rect class="cls-34" width="1193" height="65" rx="2"/>
+        <rect class="cls-2" x="0.5" y="0.5" width="1192" height="64" rx="1.5"/>
+      </g>
+    </g>
+    <text id="Einstein_Mechanics" data-name="Einstein Mechanics" class="cls-8" transform="translate(522 401)"><tspan x="0" y="15">Einstein Mechanics</tspan></text>
+    <text id="_88_000_000_USD" data-name="88,000,000 USD" class="cls-8" transform="translate(879 401)"><tspan x="18.299" y="15">88,000,000 USD</tspan></text>
+    <text id="_500_000_USD" data-name="500,000 USD" class="cls-8" transform="translate(879 471)"><tspan x="39.935" y="15">500,000 USD</tspan></text>
+    <text id="_10_000_CAD" data-name="10,000 CAD" class="cls-8" transform="translate(879 535)"><tspan x="48.621" y="15">10,000 CAD</tspan></text>
+    <text id="_2_000_000_GBP" data-name="2,000,000 GBP" class="cls-8" transform="translate(879 605)"><tspan x="28.919" y="15">2,000,000 GBP</tspan></text>
+    <text id="_50_000_000_EUR" data-name="50,000,000 EUR" class="cls-8" transform="translate(879 675)"><tspan x="19.603" y="15">50,000,000 EUR</tspan></text>
+    <text id="_50_000_000_USD" data-name="50,000,000 USD" class="cls-8" transform="translate(879 744)"><tspan x="18.218" y="15">50,000,000 USD</tspan></text>
+    <g id="Group" transform="translate(1068 401)">
+      <text id="_14-AUG-2018" data-name="14-AUG-2018" class="cls-8"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy" data-name="14-AUG-2018 Copy" class="cls-8" transform="translate(0 70)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_2" data-name="14-AUG-2018 Copy 2" class="cls-8" transform="translate(0 134)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_3" data-name="14-AUG-2018 Copy 3" class="cls-8" transform="translate(0 204)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_4" data-name="14-AUG-2018 Copy 4" class="cls-8" transform="translate(0 274)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_5" data-name="14-AUG-2018 Copy 5" class="cls-8" transform="translate(0 343)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_6" data-name="14-AUG-2018 Copy 6" class="cls-8" transform="translate(0 408)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+    </g>
+    <g id="Group_Copy" data-name="Group Copy" transform="translate(1221 401)">
+      <text id="_14-AUG-2018-2" data-name="14-AUG-2018" class="cls-8"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy-2" data-name="14-AUG-2018 Copy" class="cls-8" transform="translate(0 70)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_2-2" data-name="14-AUG-2018 Copy 2" class="cls-8" transform="translate(0 134)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_3-2" data-name="14-AUG-2018 Copy 3" class="cls-8" transform="translate(0 204)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_4-2" data-name="14-AUG-2018 Copy 4" class="cls-8" transform="translate(0 274)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_5-2" data-name="14-AUG-2018 Copy 5" class="cls-8" transform="translate(0 343)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+      <text id="_14-AUG-2018_Copy_6-2" data-name="14-AUG-2018 Copy 6" class="cls-8" transform="translate(0 408)"><tspan x="0" y="15">14-AUG-2018</tspan></text>
+    </g>
+    <text id="_50_000_000_USD-2" data-name="50,000,000 USD" class="cls-8" transform="translate(879 809)"><tspan x="18.218" y="15">50,000,000 USD</tspan></text>
+    <text id="_1234567890" data-name="1234567890" class="cls-8" transform="translate(254 401)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy" data-name="1234567890 copy" class="cls-8" transform="translate(254 472)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy_2" data-name="1234567890 copy 2" class="cls-8" transform="translate(254 537)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy_3" data-name="1234567890 copy 3" class="cls-8" transform="translate(254 607)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy_4" data-name="1234567890 copy 4" class="cls-8" transform="translate(254 674)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy_5" data-name="1234567890 copy 5" class="cls-8" transform="translate(254 742)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="_1234567890_copy_6" data-name="1234567890 copy 6" class="cls-8" transform="translate(254 810)"><tspan x="0" y="15">1234567890</tspan></text>
+    <text id="Not_Financed" data-name="Not Financed" class="cls-8" transform="translate(724 401)"><tspan x="0" y="15">Not Financed</tspan></text>
+    <text id="Not_Financed_Copy" data-name="Not Financed Copy" class="cls-8" transform="translate(724 674)"><tspan x="0" y="15">Not Financed</tspan></text>
+    <text id="Not_Financed_Copy_2" data-name="Not Financed Copy 2" class="cls-8" transform="translate(724 742)"><tspan x="0" y="15">Not Financed</tspan></text>
+    <text id="Not_Financed_Copy_3" data-name="Not Financed Copy 3" class="cls-8" transform="translate(724 808)"><tspan x="0" y="15">Not Financed</tspan></text>
+    <text id="Complete" class="cls-8" transform="translate(724 605)"><tspan x="0" y="15">Complete</tspan></text>
+    <text id="Closed" class="cls-8" transform="translate(388 471)"><tspan x="0" y="15">Closed</tspan></text>
+    <text id="Pending_Request" data-name="Pending Request" class="cls-8" transform="translate(724 471)"><tspan x="0" y="15">Pending Request</tspan></text>
+    <text id="Pending_Accepted" data-name="Pending Accepted" class="cls-8" transform="translate(724 535)"><tspan x="0" y="15">Pending Accepted</tspan></text>
+    <text id="Pending" class="cls-8" transform="translate(388 537)"><tspan x="0" y="15">Pending</tspan></text>
+    <text id="Amended" class="cls-8" transform="translate(388 605)"><tspan x="0" y="15">Amended</tspan></text>
+    <text id="Einstein_Mechanics-2" data-name="Einstein Mechanics" class="cls-8" transform="translate(522 470)"><tspan x="0" y="15">Einstein Mechanics</tspan></text>
+    <text id="Sunny_Electronics" data-name="Sunny Electronics" class="cls-8" transform="translate(522 537)"><tspan x="0" y="15">Sunny Electronics</tspan></text>
+    <text id="ABC_Supplies_Inc." data-name="ABC Supplies Inc." class="cls-8" transform="translate(522 605)"><tspan x="0" y="15">ABC Supplies Inc.</tspan></text>
+    <text id="XYZ_Transistors" data-name="XYZ Transistors" class="cls-8" transform="translate(522 674)"><tspan x="0" y="15">XYZ Transistors</tspan></text>
+    <text id="Board_Supply_LLC" data-name="Board Supply LLC" class="cls-8" transform="translate(522 742)"><tspan x="0" y="15">Board Supply LLC</tspan></text>
+    <text id="ABC_Electronics" data-name="ABC Electronics" class="cls-8" transform="translate(522 808)"><tspan x="0" y="15" xml:space="preserve">ABC  Electronics</tspan></text>
+    <path id="Line_20_Copy_6" data-name="Line 20 Copy 6" class="cls-9" d="M0,.5H1193" transform="translate(196 444)"/>
+    <path id="Line_20_Copy_7" data-name="Line 20 Copy 7" class="cls-9" d="M0,.5H1193" transform="translate(196 377)"/>
+    <path id="Line_20_Copy_3" data-name="Line 20 Copy 3" class="cls-9" d="M0,.5H1193" transform="translate(196 716)"/>
+    <path id="Line_20_Copy_4" data-name="Line 20 Copy 4" class="cls-9" d="M0,.5H1193" transform="translate(196 784)"/>
+    <path id="Line_20_Copy_2" data-name="Line 20 Copy 2" class="cls-9" d="M0,.5H1193" transform="translate(196 648)"/>
+    <path id="Line_20_Copy_5" data-name="Line 20 Copy 5" class="cls-9" d="M0,.5H1193" transform="translate(196 852)"/>
+    <g id="Group_2-2" data-name="Group 2" transform="translate(389 401)">
+      <text id="Approved" class="cls-8"><tspan x="0" y="15">Approved</tspan></text>
+    </g>
+    <g id="Group_2_Copy" data-name="Group 2 Copy" transform="translate(389 673)">
+      <text id="Approved-2" data-name="Approved" class="cls-8"><tspan x="0" y="15">Approved</tspan></text>
+    </g>
+    <g id="Group_2_Copy_2" data-name="Group 2 Copy 2" transform="translate(389 741)">
+      <text id="Approved-3" data-name="Approved" class="cls-8"><tspan x="0" y="15">Approved</tspan></text>
+    </g>
+    <g id="Group_2_Copy_3" data-name="Group 2 Copy 3" transform="translate(389 809)">
+      <text id="Approved-4" data-name="Approved" class="cls-8"><tspan x="0" y="15">Approved</tspan></text>
+    </g>
+    <g id="Overrides_Cell_Detail" data-name="Overrides/Cell/Detail" transform="translate(435 333)">
+      <path id="Detail_Disclosure" data-name="Detail Disclosure" class="cls-10" d="M0,5a5,5,0,1,1,5,5A5.006,5.006,0,0,1,0,5ZM.455,5A4.545,4.545,0,1,0,5,.455,4.55,4.55,0,0,0,.455,5ZM4.09,7.727V7.5h.455V4.09H4.09V3.864H5.455V7.5h.454v.228Zm.228-5.114a.568.568,0,1,1,.568.568A.568.568,0,0,1,4.318,2.614Z"/>
+    </g>
+    <g id="Overrides_Cell_Detail_Copy" data-name="Overrides/Cell/Detail Copy" transform="translate(771 351)">
+      <path id="Detail_Disclosure-2" data-name="Detail Disclosure" class="cls-10" d="M0,5a5,5,0,1,1,5,5A5.006,5.006,0,0,1,0,5ZM.455,5A4.545,4.545,0,1,0,5,.455,4.55,4.55,0,0,0,.455,5ZM4.09,7.727V7.5h.455V4.09H4.09V3.864H5.455V7.5h.454v.228Zm.228-5.114a.568.568,0,1,1,.568.568A.568.568,0,0,1,4.318,2.614Z"/>
+    </g>
+    <g id="Rectangle_31" data-name="Rectangle 31" class="cls-11" transform="translate(217 399)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy_4" data-name="Rectangle 31 Copy 4" class="cls-12" transform="translate(215 327)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy" data-name="Rectangle 31 Copy" class="cls-12" transform="translate(215 468)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy_2" data-name="Rectangle 31 Copy 2" class="cls-13" transform="translate(215 536)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="1" y="1" width="20" height="20" rx="1"/>
+    </g>
+    <g id="Rectangle_31_Copy_3" data-name="Rectangle 31 Copy 3" class="cls-12" transform="translate(215 604)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy_7" data-name="Rectangle 31 Copy 7" class="cls-12" transform="translate(215 673)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy_6" data-name="Rectangle 31 Copy 6" class="cls-12" transform="translate(215 741)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <g id="Rectangle_31_Copy_5" data-name="Rectangle 31 Copy 5" class="cls-12" transform="translate(215 806)">
+      <rect class="cls-34" width="22" height="22" rx="2"/>
+      <rect class="cls-2" x="0.5" y="0.5" width="21" height="21" rx="1.5"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" class="cls-13" d="M0,2.9,3.063,6,9,0" transform="translate(222 544)"/>
+    <g id="cards_simple_maturity_accepted" data-name="cards/simple/maturity/accepted" transform="translate(183 99)">
+      <rect id="cards_simple_maturity_accepted_background" data-name="cards/simple/maturity/accepted background" class="cls-14" width="194" height="139"/>
+      <g class="cls-37" transform="matrix(1, 0, 0, 1, -184, -99)">
+        <rect id="card-5" data-name="card" class="cls-3" width="194" height="139" transform="translate(184 99)"/>
+      </g>
+      <text id="_1_201" data-name="1,201" class="cls-15" transform="translate(25 76.618)"><tspan x="0" y="0">1,201</tspan></text>
+      <text id="Accepted" class="cls-16" transform="translate(27 97.809)"><tspan x="0" y="0">Accepted</tspan></text>
+      <text id="_4.7_copy" data-name="+4.7% copy" class="cls-17" transform="translate(108.5 97.875)"><tspan x="-15.902" y="0">+4.7%</tspan></text>
+    </g>
+    <g id="cards_simple_maturity_accepted_copy" data-name="cards/simple/maturity/accepted copy" transform="translate(405 99)">
+      <rect id="cards_simple_maturity_accepted_copy_background" data-name="cards/simple/maturity/accepted copy background" class="cls-14" width="194" height="139"/>
+      <g class="cls-36" transform="matrix(1, 0, 0, 1, -406, -99)">
+        <rect id="card-6" data-name="card" class="cls-3" width="194" height="139" transform="translate(406 99)"/>
+      </g>
+      <text id="_34" data-name="34" class="cls-15" transform="translate(25 76.618)"><tspan x="0" y="0">34</tspan></text>
+      <text id="Rejected" class="cls-16" transform="translate(27 97.809)"><tspan x="0" y="0">Rejected</tspan></text>
+      <text id="_-2.3_" data-name="-2.3%" class="cls-18" transform="translate(102.5 97.875)"><tspan x="-14.232" y="0">-2.3%</tspan></text>
+    </g>
+    <g id="cards_simple_maturity_accepted_copy_2" data-name="cards/simple/maturity/accepted copy 2" transform="translate(627 99)">
+      <rect id="cards_simple_maturity_accepted_copy_2_background" data-name="cards/simple/maturity/accepted copy 2 background" class="cls-14" width="194" height="139"/>
+      <g class="cls-35" transform="matrix(1, 0, 0, 1, -628, -99)">
+        <rect id="card_copy-2" data-name="card copy" class="cls-3" width="194" height="139" transform="translate(628 99)"/>
+      </g>
+      <text id="_2" data-name="2" class="cls-15" transform="translate(25 76.618)"><tspan x="0" y="0">2</tspan></text>
+      <text id="Missed" class="cls-16" transform="translate(27 97.809)"><tspan x="0" y="0">Missed</tspan></text>
+      <text id="_86.2_" data-name="+86.2%" class="cls-17" transform="translate(97.5 97.875)"><tspan x="-19.228" y="0">+86.2%</tspan></text>
+    </g>
+    <g id="Group_2-3" data-name="Group 2" transform="translate(1236 41)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-10" width="171" height="33" rx="3"/>
+      <text id="Add_Purchase_Order" data-name="Add Purchase Order" class="cls-19" transform="translate(86 21)"><tspan x="-74.941" y="0">ADD PURCHASE ORDER</tspan></text>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(1088 262)">
+      <g id="search">
+        <g id="Group_4" data-name="Group 4">
+          <text id="Search_by_PO_number" data-name="Search by PO number" class="cls-20" transform="translate(0 1)"><tspan x="0" y="18">Search by PO number</tspan></text>
+          <g id="icons_icon_search" data-name="icons/icon_search" transform="translate(311) rotate(180)">
+            <rect id="icons_icon_search_background" data-name="icons/icon_search background" class="cls-14" width="23" height="23" transform="translate(23) rotate(180)"/>
+            <rect id="frame" class="cls-2" width="23" height="23" transform="translate(23) rotate(180)"/>
+            <path id="magnifier" class="cls-21" d="M-22.04,23a.956.956,0,0,0,.679-.281l5.528-5.524a9.711,9.711,0,0,0,6.14,2.192A9.7,9.7,0,0,0,0,9.693,9.7,9.7,0,0,0-9.693,0a9.7,9.7,0,0,0-9.693,9.693,9.705,9.705,0,0,0,2.2,6.144l-5.529,5.529a.944.944,0,0,0-.281.676.944.944,0,0,0,.281.676A.953.953,0,0,0-22.04,23ZM-9.693,1.925A7.776,7.776,0,0,1-1.925,9.693a7.775,7.775,0,0,1-7.768,7.764,7.775,7.775,0,0,1-7.769-7.764A7.777,7.777,0,0,1-9.693,1.925Z" transform="translate(0 0) rotate(180)"/>
+          </g>
+          <path id="Line" class="cls-22" d="M310,1H0" transform="translate(1 27)"/>
+        </g>
+      </g>
+    </g>
+    <g id="_Icon" data-name="👉Icon" transform="translate(344 332)">
+      <rect id="_Icon_background" data-name="👉Icon background" class="cls-14" width="6.901" height="9.99" transform="translate(-0.03 -0.003)"/>
+      <path id="arrow-2" data-name="arrow" class="cls-1" d="M3.158.1a.343.343,0,1,1,.488.482L1.172,3.052H9.334a.343.343,0,0,1,.347.34.347.347,0,0,1-.347.346H1.172L3.645,6.2a.348.348,0,0,1,0,.487.342.342,0,0,1-.488,0L.1,3.637a.343.343,0,0,1,0-.482Z" transform="translate(-0.13 9.667) rotate(-90)"/>
+      <g class="cls-23" transform="translate(-0.13 -0.013)">
+        <g id="_Color" data-name="🖍 Color" transform="translate(-2.968 -3.063)">
+          <rect id="_Color_background" data-name="🖍 Color background" class="cls-14" width="14.568" height="14.6"/>
+          <rect id="Color" class="cls-10" width="14.568" height="14.6"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Background" class="cls-10" width="138" height="1092" transform="translate(-1)"/>
+    <rect id="Background-2" data-name="Background" class="cls-24" width="138" height="100" transform="translate(-1 286)"/>
+    <text id="Dashboard" class="cls-25" transform="translate(23 162)"><tspan x="10.601" y="12">Dashboard</tspan></text>
+    <g id="Icon" transform="translate(44 118)">
+      <path id="Shape" class="cls-26" d="M2,29.5V28H.5a.5.5,0,1,1,0-1H2V.5A.472.472,0,0,1,2.5,0,.472.472,0,0,1,3,.5V27H29.5a.5.5,0,0,1,0,1H3v1.5a.472.472,0,0,1-.5.5A.472.472,0,0,1,2,29.5ZM22.5,24a.473.473,0,0,1-.5-.5V7.5a.473.473,0,0,1,.5-.5h4a.472.472,0,0,1,.5.5v16a.473.473,0,0,1-.5.5Zm-8,0a.473.473,0,0,1-.5-.5V1.5a.472.472,0,0,1,.5-.5h4a.472.472,0,0,1,.5.5v22a.473.473,0,0,1-.5.5Zm-8,0a.473.473,0,0,1-.5-.5v-12a.472.472,0,0,1,.5-.5h4a.472.472,0,0,1,.5.5v12a.473.473,0,0,1-.5.5Z" transform="translate(5 5)"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(1 52)">
+      <text id="WILSON" class="cls-27" transform="translate(42 19)"><tspan x="0" y="0">WILSON</tspan></text>
+      <g id="logo" transform="translate(8 -1)">
+        <path id="Fill_1" data-name="Fill 1" class="cls-28" d="M12.983,0,0,7.5v15L12.983,30l12.983-7.5V7.5L12.983,0"/>
+        <path id="Fill_2" data-name="Fill 2" class="cls-29" d="M12.983,15V0L0,7.5,12.983,15"/>
+      </g>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(25 210)">
+      <g id="Group_28" data-name="Group 28" transform="translate(26)">
+        <g id="Group_3-2" data-name="Group 3">
+          <path id="Clip_2-3" data-name="Clip 2" class="cls-2" d="M0,0H27V27.982H0Z"/>
+          <g id="Group_3-3" data-name="Group 3" class="cls-30">
+            <path id="Fill_1-2" data-name="Fill 1" class="cls-26" d="M23.961,27.982a.718.718,0,0,1-.392-.119l-3.11-2.078-3.1,2.072a.708.708,0,0,1-.791,0l-3.11-2.078-3.1,2.072a.708.708,0,0,1-.791,0l-3.11-2.077-3.1,2.072a.7.7,0,0,1-.731.035.717.717,0,0,1-.375-.633V1.433H.714A.716.716,0,0,1,.714,0H26.286A.734.734,0,0,1,27,.734a.716.716,0,0,1-.714.716H24.663l.012,25.815a.716.716,0,0,1-.374.633A.76.76,0,0,1,23.961,27.982ZM13.78,23.762a.7.7,0,0,1,.4.121l3.11,2.078,3.1-2.078a.708.708,0,0,1,.791,0l2.4,1.6L23.566,1H4V25.477l2.385-1.594a.708.708,0,0,1,.791,0l3.11,2.072,3.1-2.072A.7.7,0,0,1,13.78,23.762Z"/>
+          </g>
+        </g>
+        <path id="Fill_4" data-name="Fill 4" class="cls-26" d="M.721,1H8.279C8.675,1,9,.775,9,.5S8.675,0,8.279,0H.721C.325,0,0,.225,0,.5s.319.5.721.5" transform="translate(8 10)"/>
+        <path id="Fill_6" data-name="Fill 6" class="cls-26" d="M.711,1H6.289C6.68,1,7,.775,7,.5S6.68,0,6.289,0H.711C.32,0,0,.225,0,.5s.314.5.711.5" transform="translate(8 12)"/>
+        <path id="Fill_8" data-name="Fill 8" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 10)"/>
+        <path id="Fill_10" data-name="Fill 10" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 12)"/>
+        <path id="Fill_12" data-name="Fill 12" class="cls-26" d="M.721,1H8.279C8.675,1,9,.775,9,.5S8.675,0,8.279,0H.721C.325,0,0,.225,0,.5s.319.5.721.5" transform="translate(8 4)"/>
+        <path id="Fill_14" data-name="Fill 14" class="cls-26" d="M.711,1H6.289C6.68,1,7,.775,7,.5S6.68,0,6.289,0H.711C.32,0,0,.225,0,.5s.314.5.711.5" transform="translate(8 7)"/>
+        <path id="Fill_16" data-name="Fill 16" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 4)"/>
+        <path id="Fill_18" data-name="Fill 18" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 7)"/>
+        <path id="Fill_20" data-name="Fill 20" class="cls-26" d="M.721,1H8.279C8.675,1,9,.775,9,.5S8.675,0,8.279,0H.721C.325,0,0,.225,0,.5s.319.5.721.5" transform="translate(8 16)"/>
+        <path id="Fill_22" data-name="Fill 22" class="cls-26" d="M.711,1H6.289C6.68,1,7,.775,7,.5S6.68,0,6.289,0H.711C.32,0,0,.225,0,.5s.314.5.711.5" transform="translate(8 18)"/>
+        <path id="Fill_24" data-name="Fill 24" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 16)"/>
+        <path id="Fill_26" data-name="Fill 26" class="cls-26" d="M.65,1h1.7A.592.592,0,0,0,3,.5.592.592,0,0,0,2.35,0H.65A.592.592,0,0,0,0,.5.588.588,0,0,0,.65,1" transform="translate(19 18)"/>
+      </g>
+      <text id="Invoices" class="cls-25" transform="translate(0 35)"><tspan x="17.916" y="12">Invoices</tspan></text>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(7 308)">
+      <text id="Purchase_Orders-2" data-name="Purchase Orders" class="cls-31" transform="translate(0 44)"><tspan x="5.494" y="15">Purchase Orders</tspan></text>
+      <g id="Group_6" data-name="Group 6" transform="translate(46)">
+        <g id="Group_3-4" data-name="Group 3">
+          <path id="Clip_2-4" data-name="Clip 2" class="cls-2" d="M0,0H22.994V26H0Z" transform="translate(0 0)"/>
+          <g id="Group_3-5" data-name="Group 3" class="cls-32">
+            <path id="Fill_1-3" data-name="Fill 1" class="cls-26" d="M21.174,26H1.82A1.808,1.808,0,0,1,0,24.208V7.736a1.274,1.274,0,0,1,.081-.448.742.742,0,0,1,.076-.179L3.89.732A1.494,1.494,0,0,1,5.176,0H17.818A1.494,1.494,0,0,1,19.1.73l3.674,6.254a1.254,1.254,0,0,1,.093.158l.02.033a.748.748,0,0,1,.1.435c0,.022,0,.043,0,.066V24.208A1.808,1.808,0,0,1,21.174,26ZM1.548,7.968v16.24a.27.27,0,0,0,.272.268H21.174a.27.27,0,0,0,.272-.268V7.968H1.548ZM12.3,1.524V6.443h8.373L17.782,1.524Zm-7.085,0h0L2.333,6.443h8.416V1.524H5.212Z" transform="translate(0 0)"/>
+          </g>
+        </g>
+        <path id="Fill_4-2" data-name="Fill 4" class="cls-26" d="M6.786.245a.666.666,0,0,0-1.032,0L2.5,3.98,1.245,2.544a.666.666,0,0,0-1.032,0,.926.926,0,0,0,0,1.183L1.982,5.755a.665.665,0,0,0,1.032,0L6.786,1.428a.926.926,0,0,0,0-1.183" transform="translate(8 14)"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(17 409)">
+      <text id="Relationships" class="cls-25" transform="translate(0 33)"><tspan x="12.081" y="12">Relationships</tspan></text>
+      <circle id="Oval_Copy" data-name="Oval Copy" class="cls-33" cx="10.5" cy="10.5" r="10.5" transform="translate(37 3)"/>
+      <circle id="Oval_Copy_2" data-name="Oval Copy 2" class="cls-33" cx="6" cy="6" r="6" transform="translate(32)"/>
+    </g>
+  </g>
+</svg>
