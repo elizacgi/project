@@ -730,7 +730,7 @@ section.legal {
   justify-content: center;
 }
 
-section.legal button{
+section.legal .fakeButton {
   border-radius: 7px;
   background-color: #0090EA;
   width: 85px;
