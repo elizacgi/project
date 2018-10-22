@@ -206,6 +206,10 @@ section h2 {
   }
 }
 
+.navbar .containerLegal {
+  justify-content: start !important;
+}
+
 .TIN {
   height: 55px;
 }
@@ -407,25 +411,6 @@ section.standardization {
   }
 }
 
-/* @media (min-width: 992px) {
-  section.standardization .ui-large {
-    width: 60%;
-  }
-} */
-
-/* section.standardization .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  align-content: flex-end;
-  align-self: flex-end;
-  margin-right: 0px;
-  padding-right: 0px;
-  margin-left: auto;
-  /* smaller margin-left looks better but then the screenshot isn't off the edge of the page /
-} */
-
 section.standardization .container {
   display: flex;
   flex-direction: column;
@@ -484,10 +469,6 @@ section.standardization .ui-large {
 
 section.benefits {
   background-image: linear-gradient(#0085D8, #68BDF2);
-  /*
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
-  */
   padding-top: 65px;
   position: relative;
   margin-bottom: 0px;
@@ -735,6 +716,7 @@ section.legal .fakeButton {
   background-color: #0090EA;
   width: 85px;
   align-self: center;
+  text-align: center;
   margin-top: 30px;
   padding: 5px 10px;
 }
