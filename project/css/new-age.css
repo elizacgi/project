@@ -491,11 +491,12 @@ section.benefits {
   padding-top: 65px;
   position: relative;
   margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
   section.benefits {
-    margin-bottom: 200px;
+    margin-bottom: 170px;
   }
 }
 
@@ -593,6 +594,23 @@ section.overview .platformOverview {
 
   .full {
     display: inline;
+  }
+}
+
+.mobileHidden {
+  display: none !important;
+}
+
+.mobileShown {
+  display: flex !important;
+}
+
+@media (min-width: 576px) {
+  .mobileHidden {
+    display: flex !important;
+  }
+  .mobileShown {
+    display: none !important;
   }
 }
 
