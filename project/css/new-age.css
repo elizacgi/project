@@ -523,6 +523,10 @@ section.benefits h5 {
   color: white;
 }
 
+section.benefits h6 {
+  font-weight: bold;
+}
+
 section.benefits .beneficiaries {
   display: flex;
 }
@@ -533,10 +537,6 @@ section.benefits .beneficiaries .row {
 
 section.benefits .beneficiaries li {
   text-align: left;
-}
-
-section.benefits li .emphasize {
-  font-weight: 900;
 }
 
 section.overview {
@@ -677,7 +677,7 @@ section.contact .contactInfo ul {
   }
 }
 
-section.signature {
+/* section.signature {
   padding: 30px 0;
 }
 
@@ -696,7 +696,7 @@ section.signature {
   align-self: center;
   margin: 0;
   color: #3C3C3C;
-}
+} */
 
 .align-center {
   text-align: center;
