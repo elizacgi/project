@@ -436,13 +436,13 @@ section.standardization .showLarge {
 
 section.standardization .hideLarge {
   display: inline;
-  max-width: 200px;
+  max-width: 300px;
   align-self: center;
 }
 
 @media (min-width: 768px) {
   section.standardization .hideLarge {
-    max-width: 400px;
+    max-width: 450px;
   }
 }
 
@@ -464,7 +464,7 @@ section.standardization .hideLarge {
 
 section.standardization .ui-large {
   align-self: flex-end;
-  width: 35%;
+  width: 40%;
 }
 
 section.benefits {
