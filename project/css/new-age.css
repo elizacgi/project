@@ -434,6 +434,11 @@ section.standardization .showLarge {
   display: none;
 }
 
+section.standardization img {
+  -webkit-filter: drop-shadow(5px 5px 5px #AAAAAA);
+  filter: drop-shadow(5px 5px 5px #AAAAAA);
+}
+
 section.standardization .hideLarge {
   display: inline;
   max-width: 300px;
