@@ -334,7 +334,7 @@ section.missionStatement .badges .badge-link img {
 }
 
 @media (min-width: 768px) {
-  .divider {
+  .foundingBank:not(:first-child) {
     border-left: 1px solid gray;
   }
 }
@@ -625,7 +625,7 @@ section.contact .contactInfo ul {
   background-color: white;
   margin: 10px 0;
   border: none;
-  min-height: 151px;
+  min-height: 127px;
 }
 
 @media (min-width: 992px) {
