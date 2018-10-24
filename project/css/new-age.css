@@ -211,7 +211,7 @@ section h2 {
 }
 
 .TIN {
-  height: 55px;
+  height: 65px;
 }
 
 .hide{
@@ -287,6 +287,10 @@ section.missionStatement {
 section.missionStatement h2 {
   font-size: 50px;
   margin-top: 0;
+}
+
+section.missionStatement h5 {
+  color: black;
 }
 
 section.missionStatement .badges .badge-link {
@@ -435,8 +439,8 @@ section.standardization .showLarge {
 }
 
 section.standardization img {
-  -webkit-filter: drop-shadow(5px 5px 5px #AAAAAA);
-  filter: drop-shadow(5px 5px 5px #AAAAAA);
+  -webkit-filter: drop-shadow(0px 0px 5px #AAAAAA);
+  filter: drop-shadow(0px 0px 5px #AAAAAA);
 }
 
 section.standardization .hideLarge {
@@ -519,7 +523,7 @@ section.benefits:after {
 }
 
 section.benefits .platformBenefits {
-  width: 85%;
+  width: 65%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -541,6 +545,10 @@ section.benefits .beneficiaries .row {
 }
 
 section.benefits .beneficiaries li {
+  text-align: left;
+}
+
+.beneficiaries h6 {
   text-align: left;
 }
 
