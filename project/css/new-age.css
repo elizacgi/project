@@ -342,7 +342,7 @@ section.missionStatement .disclaimer {
   align-content: center;
   justify-content: center;
   align-items: center;
-  color: #0090EA;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -562,6 +562,10 @@ section.benefits .beneficiaries .row {
   flex: 1;
 }
 
+section.benefits .beneficiaries ul {
+  padding-inline-start: 20px;
+}
+
 section.benefits .beneficiaries li {
   text-align: left;
 }
@@ -577,12 +581,6 @@ section.overview {
 
 section.overview h5 {
   margin-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-  section.overview h5 {
-    margin-bottom: 100px;
-  }
 }
 
 section.overview .platformOverview {
@@ -643,11 +641,13 @@ section.contact {
   justify-content: space-between;
 }
 
-section.contact h5, h4 {
+section.contact h5 {
+  margin: 0 0 65px 0;
   color: white;
 }
 
 section.contact h4 {
+  color: white;
   padding: 10px;
   margin: 0;
 }
@@ -753,17 +753,11 @@ footer {
   background-color: #222222;
 }
 
-footer p {
-  font-size: 12px;
-  margin: 0;
-}
-
 footer ul {
   margin-bottom: 0;
 }
 
-footer ul li a {
-  font-size: 12px;
+footer a {
   color: rgba(255, 255, 255, 0.5);
 }
 
