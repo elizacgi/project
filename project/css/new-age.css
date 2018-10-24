@@ -319,6 +319,10 @@ section.missionStatement .badges .badge-link img {
   }
 }
 
+section.missionStatement .disclaimer {
+  font-size: 11px;
+}
+
 .foundingBanks {
   display: flex;
   flex-direction: row;
@@ -689,27 +693,6 @@ section.contact .contactInfo ul {
     margin-top: 10px;
   }
 }
-
-/* section.signature {
-  padding: 30px 0;
-}
-
-.signature {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.signature .CGI {
-  height: 70px;
-  width: auto;
-}
-
-.signature p {
-  align-self: center;
-  margin: 0;
-  color: #3C3C3C;
-} */
 
 .align-center {
   text-align: center;
