@@ -281,7 +281,13 @@ header.masthead .header-content h1 {
 section.missionStatement {
   z-index: 3;
   position: relative;
-  padding: 100px 0 50px 0;
+  padding: 50px 0 50px 0;
+}
+
+@media (min-width: 768px) {
+  section.missionStatement {
+    padding: 100px 0 50px 0;
+  }
 }
 
 section.missionStatement h2 {
@@ -527,9 +533,15 @@ section.benefits:after {
 }
 
 section.benefits .platformBenefits {
-  width: 65%;
+  width: 100%;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  section.benefits .platformBenefits {
+    width: 65%;
+  }
 }
 
 section.benefits h5 {
@@ -557,8 +569,14 @@ section.benefits .beneficiaries li {
 }
 
 section.overview {
-  padding-top: 70px;
+  padding-top: 160px;
   padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  section.overview {
+    padding-top: 70px;
+  }
 }
 
 section.overview h5 {
@@ -572,9 +590,19 @@ section.overview h5 {
 }
 
 section.overview .platformOverview {
-  width: 80%;
-  max-width: 720px;
+  width: 100%;
+  max-width: 880px;
   align-self: center;
+  /* margin-left: 3%; */
+}
+
+@media (min-width: 768px) {
+  section.overview .platformOverview {
+    width: 80%;
+    max-width: 880px;
+    align-self: center;
+    margin-left: 2%;
+  }
 }
 
 .mobile {
