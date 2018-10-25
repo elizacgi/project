@@ -666,7 +666,19 @@ section.contact .contactInfo ul {
   background-color: white;
   margin: 10px 0;
   border: none;
-  min-height: 127px;
+  /* min-height: 127px; */
+}
+
+@media (min-width: 576px) {
+  .card {
+    min-height: 125px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    min-height: 0;
+  }
 }
 
 @media (min-width: 992px) {
