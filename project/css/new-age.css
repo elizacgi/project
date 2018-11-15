@@ -719,6 +719,10 @@ section.contact .contactInfo ul {
   }
 }
 
+.imprint {
+  float:right;
+}
+
 .doubleMargin {
   margin-top: 20px;
 }
