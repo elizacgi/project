@@ -725,7 +725,7 @@ section.contact .contactInfo ul {
 
 @media (min-width: 576px) {
   .imprint {
-    float:left;
+    float:none;
   }
 }
 
