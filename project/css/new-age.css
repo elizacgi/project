@@ -723,6 +723,18 @@ section.contact .contactInfo ul {
   float:right;
 }
 
+@media (min-width: 576px) {
+  .imprint {
+    float:left;
+  }
+}
+
+@media (min-width: 992px) {
+  .imprint {
+    float:right;
+  }
+}
+
 .doubleMargin {
   margin-top: 20px;
 }
